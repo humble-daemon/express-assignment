@@ -1,0 +1,23 @@
+{
+  "name": "book_reviews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runserver" : "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
